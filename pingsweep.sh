@@ -1,4 +1,6 @@
 #!/bin/bash
+#simple subet scanner written in bash
+#if no ip given print
 if [ "$1" == "" ]
 then
 echo "You forgot an IP address!"
